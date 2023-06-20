@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+    <title>Termperature Conversion</title>
+</head>
+<body>
+    <div class="container">
+        <div class="containerNav">
+            <img src="https://asset.brandfetch.io/idOlCxDOEn/idHcqQTYKQ.svg">
+            <label for="img">RevoU</label>
+        </div>
+        <div class="containerConten">
+            <h2>Kalkulator Konversi Suhu</h2>
+            <div class="input-group">
+                <label for="note"> </label>
+                <label for="celsius">Celsius</label>
+                <input type="number" id="celsius" placeholder="Masukkan Nilai Suhu">
+                <label>Hasil Konversi</label>
+                <div class="result">
+                    <p id="result-fahrenheit"></p>
+                    <div id="steps" class="steps"></div>
+                </div>
+            </div>
+            <div class="buton">
+                <button class="btn-konversi" onclick="konversi()">Konversi</button>
+                <button class="btn-reverse" onclick="reverse()">Reverse</button>
+                <button class="btn-reset" onclick="reset()">Reset</button>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
